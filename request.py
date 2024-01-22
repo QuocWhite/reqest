@@ -3,7 +3,7 @@ from time import sleep
 import Adafruit_CharLCD as LCD
 
 # IP address of the static web page to check
-url = '192.168.32.131'
+url = 'your IP address'
 
 # Initialize the LCD with pin settings
 lcd = LCD.Adafruit_CharLCD(pin_rs=26, pin_e=19, pins_db=[13, 6, 5, 11], 
